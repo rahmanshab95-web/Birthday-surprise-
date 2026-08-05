@@ -1,9 +1,9 @@
 const photos = [
-  "photo1.jpg",
-  "photo2.jpg",
-  "photo3.jpg",
-  "photo4.jpg",
-  "photo5.jpg"
+  "IMG-20251120-WA0048.jpg",
+  "IMG-20251121-WA0003.jpg",
+  "IMG-20251121-WA0000.jpg",
+  "IMG-20251120-WA0036.jpg",
+  "IMG-20251120-WA0049.jpg"
 ];
 
 let current = 0;
@@ -11,7 +11,7 @@ let current = 0;
 const message =
 "Happy Birthday Duggu ❤️\n\n" +
 "Tu meri life ki sabse special best friend hai. 💖\n" +
-"Allah tumhe hamesha khush rakhe, har dua qubool ho aur tumhari smile hamesha aise hi rahe. 🌸\n\n" +
+"Upper wala tumhe hamesha khush rakhe, har dua qubool ho aur tumhari smile hamesha aise hi rahe. 🌸\n\n" +
 "Many Many Happy Returns of the Day! 🎂✨";
 
 let i = 0;
