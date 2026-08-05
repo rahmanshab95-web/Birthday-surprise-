@@ -29,7 +29,12 @@ window.onload = function () {
 };
 
 function nextPhoto() {
-  current++;
-  if (current >= photos.length) current = 0;
-  document.getElementById("photo").src = photos[current];
+    current++;
+
+    if (current >= photos.length) {
+        window.location.href = "letter.html";
+        return;
+    }
+
+    document.getElementById("photo").src = photos[current];
 }
