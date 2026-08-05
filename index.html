@@ -1,29 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Birthday Surprise</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Surprise ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
-<body style="font-family:Arial;text-align:center;background:pink;padding-top:100px;">
+<body>
 
-<h1>🔐 Enter Password</h1>
+<div class="container">
 
-<input type="password" id="pass" placeholder="Birthday (DDMMYYYY)">
-<br><br>
+<h1>🔐 Secret Birthday Surprise</h1>
 
-<button onclick="check()">Unlock ❤️</button>
+<p>Enter Duggu's Birthday</p>
 
-<script>
-function check(){
-var p=document.getElementById("pass").value;
+<input
+type="password"
+id="password"
+placeholder="DDMMYYYY">
 
-if(p=="09082006"){
-window.location.href="surprise.html";
-}else{
-alert("Wrong Password 💔");
-}
-}
-</script>
+<button onclick="checkPassword()">
+Unlock ❤️
+</button>
+
+<p id="error" class="error"></p>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
